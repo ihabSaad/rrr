@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00055ACC2C5901F7007A133D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00055ACB2C5901F7007A133D /* AppDelegate.swift */; };
+		00055ACE2C5901F7007A133D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00055ACD2C5901F7007A133D /* SceneDelegate.swift */; };
+		00055AD52C5901F8007A133D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00055AD42C5901F8007A133D /* Assets.xcassets */; };
+		00055AD82C5901F8007A133D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 00055AD72C5901F8007A133D /* Base */; };
+		516F910C2C5963CE002BABE3 /* SplashScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516F910A2C5963CE002BABE3 /* SplashScreenVC.swift */; };
+		516F910D2C5963CE002BABE3 /* SplashScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 516F910B2C5963CE002BABE3 /* SplashScreenVC.xib */; };
+		516F91112C59646E002BABE3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516F91102C59646E002BABE3 /* Colors.xcassets */; };
+		516F91172C59655F002BABE3 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 516F91132C59655F002BABE3 /* Inter-Medium.ttf */; };
+		516F91182C596560002BABE3 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 516F91142C59655F002BABE3 /* Inter-Light.ttf */; };
+		516F91192C596560002BABE3 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 516F91152C59655F002BABE3 /* Inter-Regular.ttf */; };
+		516F911A2C596560002BABE3 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 516F91162C59655F002BABE3 /* Inter-Bold.ttf */; };
+		51B74F3A2C596AE5002B56AB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B74F342C596AE5002B56AB /* CardView.swift */; };
+		51B74F3B2C596AE5002B56AB /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B74F352C596AE5002B56AB /* RootRouter.swift */; };
+		51B74F3C2C596AE5002B56AB /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B74F362C596AE5002B56AB /* String.swift */; };
+		51B74F3D2C596AE5002B56AB /* TidyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B74F372C596AE5002B56AB /* TidyTextField.swift */; };
+		51B74F3E2C596AE5002B56AB /* UiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B74F382C596AE5002B56AB /* UiViewController.swift */; };
+		51B74F492C596BEB002B56AB /* NotInternetVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B74F482C596BEA002B56AB /* NotInternetVC.xib */; };
+		51B74F4A2C596BEB002B56AB /* NotInternetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B74F472C596BEA002B56AB /* NotInternetVC.swift */; };
+		51B74F502C5971F5002B56AB /* SignUpVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B74F4B2C5971F5002B56AB /* SignUpVc.swift */; };
+		51B74F512C5971F5002B56AB /* SignUpVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B74F4C2C5971F5002B56AB /* SignUpVc.xib */; };
+		E806F241791B74E51FE842BC /* Pods_Speedo_Transfer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0746E48199572551B3F2562D /* Pods_Speedo_Transfer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00055AC82C5901F7007A133D /* Speedo_Transfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Speedo_Transfer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00055ACB2C5901F7007A133D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00055ACD2C5901F7007A133D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		00055AD42C5901F8007A133D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00055AD72C5901F8007A133D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00055AD92C5901F8007A133D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0746E48199572551B3F2562D /* Pods_Speedo_Transfer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Speedo_Transfer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		516F910A2C5963CE002BABE3 /* SplashScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenVC.swift; sourceTree = "<group>"; };
+		516F910B2C5963CE002BABE3 /* SplashScreenVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashScreenVC.xib; sourceTree = "<group>"; };
+		516F91102C59646E002BABE3 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		516F91132C59655F002BABE3 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		516F91142C59655F002BABE3 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		516F91152C59655F002BABE3 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		516F91162C59655F002BABE3 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		51B74F342C596AE5002B56AB /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		51B74F352C596AE5002B56AB /* RootRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		51B74F362C596AE5002B56AB /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		51B74F372C596AE5002B56AB /* TidyTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TidyTextField.swift; sourceTree = "<group>"; };
+		51B74F382C596AE5002B56AB /* UiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UiViewController.swift; sourceTree = "<group>"; };
+		51B74F472C596BEA002B56AB /* NotInternetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotInternetVC.swift; sourceTree = "<group>"; };
+		51B74F482C596BEA002B56AB /* NotInternetVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotInternetVC.xib; sourceTree = "<group>"; };
+		51B74F4B2C5971F5002B56AB /* SignUpVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVc.swift; sourceTree = "<group>"; };
+		51B74F4C2C5971F5002B56AB /* SignUpVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpVc.xib; sourceTree = "<group>"; };
+		69CFA88A3BA3095E6BCE684A /* Pods-Speedo_Transfer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Speedo_Transfer.debug.xcconfig"; path = "Target Support Files/Pods-Speedo_Transfer/Pods-Speedo_Transfer.debug.xcconfig"; sourceTree = "<group>"; };
+		E7171BDACC615118E796675B /* Pods-Speedo_Transfer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Speedo_Transfer.release.xcconfig"; path = "Target Support Files/Pods-Speedo_Transfer/Pods-Speedo_Transfer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00055AC52C5901F7007A133D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E806F241791B74E51FE842BC /* Pods_Speedo_Transfer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00055ABF2C5901F7007A133D = {
+			isa = PBXGroup;
+			children = (
+				00055ACA2C5901F7007A133D /* Speedo_Transfer */,
+				00055AC92C5901F7007A133D /* Products */,
+				0CAA7D4D0654FE9BBC8AA699 /* Pods */,
+				7B2BFC519A398ABBEBD51312 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00055AC92C5901F7007A133D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00055AC82C5901F7007A133D /* Speedo_Transfer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00055ACA2C5901F7007A133D /* Speedo_Transfer */ = {
+			isa = PBXGroup;
+			children = (
+				516F91052C5962D1002BABE3 /* Core */,
+				51B74F392C596AE5002B56AB /* extension */,
+				516F910E2C5963E2002BABE3 /* viewControllers */,
+				516F91062C59631A002BABE3 /* Resources */,
+				516F91082C596340002BABE3 /* LaunchScreen */,
+				00055AD92C5901F8007A133D /* Info.plist */,
+			);
+			path = Speedo_Transfer;
+			sourceTree = "<group>";
+		};
+		0CAA7D4D0654FE9BBC8AA699 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69CFA88A3BA3095E6BCE684A /* Pods-Speedo_Transfer.debug.xcconfig */,
+				E7171BDACC615118E796675B /* Pods-Speedo_Transfer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		516F91052C5962D1002BABE3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				00055ACB2C5901F7007A133D /* AppDelegate.swift */,
+				00055ACD2C5901F7007A133D /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		516F91062C59631A002BABE3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				516F91122C596530002BABE3 /* Fonts */,
+				516F910F2C596446002BABE3 /* Colors */,
+				516F91072C596330002BABE3 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		516F91072C596330002BABE3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				00055AD42C5901F8007A133D /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		516F91082C596340002BABE3 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				00055AD62C5901F8007A133D /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		516F91092C5963B6002BABE3 /* SplashScreenVC */ = {
+			isa = PBXGroup;
+			children = (
+				516F910A2C5963CE002BABE3 /* SplashScreenVC.swift */,
+				516F910B2C5963CE002BABE3 /* SplashScreenVC.xib */,
+			);
+			path = SplashScreenVC;
+			sourceTree = "<group>";
+		};
+		516F910E2C5963E2002BABE3 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				516F91092C5963B6002BABE3 /* SplashScreenVC */,
+				51B74F462C596BCB002B56AB /* NotInternetVC */,
+				51B74F4F2C5971F5002B56AB /* SignUpVc */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		516F910F2C596446002BABE3 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				516F91102C59646E002BABE3 /* Colors.xcassets */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		516F91122C596530002BABE3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				516F91162C59655F002BABE3 /* Inter-Bold.ttf */,
+				516F91142C59655F002BABE3 /* Inter-Light.ttf */,
+				516F91152C59655F002BABE3 /* Inter-Regular.ttf */,
+				516F91132C59655F002BABE3 /* Inter-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		51B74F392C596AE5002B56AB /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				51B74F342C596AE5002B56AB /* CardView.swift */,
+				51B74F352C596AE5002B56AB /* RootRouter.swift */,
+				51B74F362C596AE5002B56AB /* String.swift */,
+				51B74F372C596AE5002B56AB /* TidyTextField.swift */,
+				51B74F382C596AE5002B56AB /* UiViewController.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		51B74F462C596BCB002B56AB /* NotInternetVC */ = {
+			isa = PBXGroup;
+			children = (
+				51B74F472C596BEA002B56AB /* NotInternetVC.swift */,
+				51B74F482C596BEA002B56AB /* NotInternetVC.xib */,
+			);
+			path = NotInternetVC;
+			sourceTree = "<group>";
+		};
+		51B74F4D2C5971F5002B56AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51B74F4B2C5971F5002B56AB /* SignUpVc.swift */,
+				51B74F4C2C5971F5002B56AB /* SignUpVc.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51B74F4E2C5971F5002B56AB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		51B74F4F2C5971F5002B56AB /* SignUpVc */ = {
+			isa = PBXGroup;
+			children = (
+				51B74F4D2C5971F5002B56AB /* View */,
+				51B74F4E2C5971F5002B56AB /* ViewModel */,
+			);
+			path = SignUpVc;
+			sourceTree = "<group>";
+		};
+		7B2BFC519A398ABBEBD51312 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0746E48199572551B3F2562D /* Pods_Speedo_Transfer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00055AC72C5901F7007A133D /* Speedo_Transfer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00055ADC2C5901F8007A133D /* Build configuration list for PBXNativeTarget "Speedo_Transfer" */;
+			buildPhases = (
+				B1445DF009BB07340A45ADCF /* [CP] Check Pods Manifest.lock */,
+				00055AC42C5901F7007A133D /* Sources */,
+				00055AC52C5901F7007A133D /* Frameworks */,
+				00055AC62C5901F7007A133D /* Resources */,
+				E7B1D394BE1A13F527FEE1ED /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Speedo_Transfer;
+			productName = Speedo_Transfer;
+			productReference = 00055AC82C5901F7007A133D /* Speedo_Transfer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00055AC02C5901F7007A133D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					00055AC72C5901F7007A133D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 00055AC32C5901F7007A133D /* Build configuration list for PBXProject "Speedo_Transfer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00055ABF2C5901F7007A133D;
+			productRefGroup = 00055AC92C5901F7007A133D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00055AC72C5901F7007A133D /* Speedo_Transfer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00055AC62C5901F7007A133D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00055AD52C5901F8007A133D /* Assets.xcassets in Resources */,
+				516F91112C59646E002BABE3 /* Colors.xcassets in Resources */,
+				51B74F512C5971F5002B56AB /* SignUpVc.xib in Resources */,
+				516F911A2C596560002BABE3 /* Inter-Bold.ttf in Resources */,
+				00055AD82C5901F8007A133D /* Base in Resources */,
+				516F91172C59655F002BABE3 /* Inter-Medium.ttf in Resources */,
+				516F91182C596560002BABE3 /* Inter-Light.ttf in Resources */,
+				516F910D2C5963CE002BABE3 /* SplashScreenVC.xib in Resources */,
+				516F91192C596560002BABE3 /* Inter-Regular.ttf in Resources */,
+				51B74F492C596BEB002B56AB /* NotInternetVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B1445DF009BB07340A45ADCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Speedo_Transfer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7B1D394BE1A13F527FEE1ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Speedo_Transfer/Pods-Speedo_Transfer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Speedo_Transfer/Pods-Speedo_Transfer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Speedo_Transfer/Pods-Speedo_Transfer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00055AC42C5901F7007A133D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B74F3C2C596AE5002B56AB /* String.swift in Sources */,
+				51B74F4A2C596BEB002B56AB /* NotInternetVC.swift in Sources */,
+				516F910C2C5963CE002BABE3 /* SplashScreenVC.swift in Sources */,
+				51B74F3B2C596AE5002B56AB /* RootRouter.swift in Sources */,
+				00055ACC2C5901F7007A133D /* AppDelegate.swift in Sources */,
+				51B74F3A2C596AE5002B56AB /* CardView.swift in Sources */,
+				00055ACE2C5901F7007A133D /* SceneDelegate.swift in Sources */,
+				51B74F3E2C596AE5002B56AB /* UiViewController.swift in Sources */,
+				51B74F502C5971F5002B56AB /* SignUpVc.swift in Sources */,
+				51B74F3D2C596AE5002B56AB /* TidyTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00055AD62C5901F8007A133D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00055AD72C5901F8007A133D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00055ADA2C5901F8007A133D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00055ADB2C5901F8007A133D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00055ADD2C5901F8007A133D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69CFA88A3BA3095E6BCE684A /* Pods-Speedo_Transfer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Speedo_Transfer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Speedo Transfer";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmedfathy-pop.Speedo-Transfer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00055ADE2C5901F8007A133D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7171BDACC615118E796675B /* Pods-Speedo_Transfer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Speedo_Transfer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Speedo Transfer";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmedfathy-pop.Speedo-Transfer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00055AC32C5901F7007A133D /* Build configuration list for PBXProject "Speedo_Transfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00055ADA2C5901F8007A133D /* Debug */,
+				00055ADB2C5901F8007A133D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00055ADC2C5901F8007A133D /* Build configuration list for PBXNativeTarget "Speedo_Transfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00055ADD2C5901F8007A133D /* Debug */,
+				00055ADE2C5901F8007A133D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00055AC02C5901F7007A133D /* Project object */;
+}
